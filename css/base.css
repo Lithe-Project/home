@@ -22,6 +22,7 @@
  *      ## mobile devices
  *      ## small mobile devices
  *  # MISC
+ *  # Table Design
  *
  * =================================================================== */
 
@@ -855,4 +856,33 @@ input[type="password"], textarea {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+/* ------------------------------------------------------------------- 
+ * # Tables Design
+ * ------------------------------------------------------------------- */
+
+#todoTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+#todoTable td, #todoTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#todoTable tr:nth-child(even){background-color: #ffc9ff;}
+
+#todoTable tr:hover {background-color: #ddd;}
+
+#todoTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #341434;
+  color: white;
 }
