@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: lithe-project.cf
+Token: 4b63701b4eabab33136eda568edafa98a546f66809ec4ab3a45f6c4d5f2a5b6c
