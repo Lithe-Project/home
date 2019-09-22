@@ -1,13 +1,18 @@
 <!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
 
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
     <title>The Lithe Project&trade;</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Homepage for The Lithe Project">
+    <meta name="author" content="The Lithe Project Development Team">
 
     <!-- mobile specific metas
     ================================================== -->
@@ -16,16 +21,17 @@
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/ext.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/extra.css">
     <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
-    
+
     <!-- favicons
     ================================================== -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -40,16 +46,15 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="index.html"><img src="images/logo.png" style="width:60px;height:60px" alt="Homepage"></a>
+            <a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>
         </div>
 
         <nav class="header-nav-wrap">
             <ul class="header-nav">
                 <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
                 <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll"  href="#links" title="links">Links</a></li>
-                <li><a class="smoothscroll"  href="#contact" title="blog">Specs</a></li>
-                <li><a href="#blog" title="block-explorer">We're Hiring!</a></li>
+                <li><a class="smoothscroll"  href="#timeline" title="projects">Timeline</a></li>
+                <li><a class="smoothscroll"  href="#donate" title="blog">Donate</a></li>
             </ul>
         </nav>
 
@@ -60,8 +65,7 @@
 
    <!-- home
    ================================================== -->
-
-   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/background-purple.png" data-natural-width=3925 data-natural-height=2570 data-position-y=center>
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/bg.png" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -73,15 +77,15 @@
                 <h3>The Lithe Project&trade;</h3>
 
                 <h1>
-                    Lithe, money that works.
+                    Open source applications designed for everyone.<br>
                 </h1>
 
-                <div class="home-content__buttons">
-                    <a href="https://github.com/lithe-project" class="btn btn--stroke">
+                <div class="home-content__butto>ns">
+                    <a href="#works" class="smoothscroll btn btn--primary">
                         Latest Projects
                     </a>
-                    <a href="wallet.html" class="btn btn--stroke">
-                        Get Your Wallet
+                    <a href="#about" class="smoothscroll btn btn--primary">
+                        More About Us
                     </a>
                 </div>
 
@@ -97,16 +101,16 @@
 
         <ul class="home-social">
             <li>
-                <a href="https://www.reddit.com/r/lithe"><i class="im im-reddit" target="_blank" aria-hidden="true"></i><span>Reddit</span></a>
+                <a href="#"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
             </li>
             <li>
-                <a href="https://www.twitter.com/thelitheproject"><i class="im im-twitter" target="_blank" aria-hidden="true"></i><span>Twitter</span></a>
+                <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
             </li>
             <li>
-                <a href="https://discord.gg/XH42C4b"><i class="fab fa-discord" target="_blank" aria-hidden="true"></i><span>Discord</span></a>
+                <a href="#"><i class="fab fa-reddit" aria-hidden="true"></i><span>Reddit</span></a>
             </li>
             <li>
-                <a href="https://github.com/lithe-project"><i class="im im-github" target="_blank" aria-hidden="true"></i><span>GitHub</span></a>
+                <a href="#"><i class="fab fa-discord" aria-hidden="true"></i><span>Discord</span></a>
             </li>
         </ul> 
         <!-- end home-social -->
@@ -116,505 +120,221 @@
 
     <!-- about
     ================================================== -->
-
-    <section id="about" class="s-about target-section">
+    <section id="about" class="s-about target-section has-bottom-sep">
         
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full text-center">
-                <h1>About Lithe&trade;</h1>
-                </br>
+                <h3>About</h3>
+                <h1>More About The Project.</h1>
                 <p class="lead">Lithe aims to study the best practices of the fiat world and work towards 
-                developing products to be user-friendly for the people. So even though people are using 
-                the Lithe crypto on the backend, they will have no problems interacting with it because 
-                of its elegant UI. Lithe is built upon the TurtleCoin network which has features such as 
-                Light Blocks, Private Transactions and Blockchain Analysis Resistance. Lithe has a maximum 
-                supply of 25 billion coins allowing enough coins constantly flowing within the network 
-                but not too many that you would have to use more coins than expected to purchase goods. 
-                We know of one minor problem between cryptocurrency and normal people and that is it is 
-                like Voodoo to them. Lithe will change that so it will allow anyone and everyone the 
-                ability to use and benefit from it. Because we want everyone to eventually be using Lithe, 
-                we are adapting for longevity. </br>
-                Longevity in Lithe's Proof of Work will allow everybody to 
-				earn <a href="">$LITHE</a>, all the time, for the rest of our lives and possibly for the next couple of 
-                generations, this also allows the developers to work on and around The Lithe Project for 
-                years to come. The Lithe Project's development team are only focused on the development of 
-                Lithe and it's applications over time rather than value, getting rich quick and then 
-                abandoning it. To prove this, Lithe has no premine and will be totally supported by it's 
-                team members, community members and donations.</p>
+								developing products to be user-friendly for the people.
+								</br>
+								Our team is a worldwide-based entity of members dedicated to creating 
+								and assisting new means of use for digital economics in real-world situations, 
+								today.
+                </p>
             </div>
         </div>
 
+        <div class="row about-content">
+            <div class="col-full tab-full center">
+				<div></br></br></br></div>
+				<div class="col-three text-center animate-box">
+					<div class="services color-4">
+						<span class="icon">
+							<i class="far fa-clock"></i>
+						</span>
+						<div class="desc">
+							<h3>2 Minute Block Times.</h3>
+							<p>"That's x5 quicker than Bitcoin!"</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-three text-center animate-box">
+					<div class="services color-4">
+						<span class="icon">
+							<i class="fas fa-user-secret"></i>
+						</span>
+						<div class="desc">
+							<h3>Unlinkable Transactions</h3>
+							<p>"Unlike Bitcoin, $LXTH transactions cannot be traced to a specific wallet."</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-three text-center animate-box">
+					<div class="services color-4">
+						<span class="icon">
+							<i class="fas fa-comments-dollar"></i>
+						</span>
+						<div class="desc">
+							<h3>Miniscule Fee</h3>
+							<p>"$LXTH's transactions fees are distinctivly lower than Bitcoins"</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-three text-center animate-box">
+					<div class="services color-4">
+						<span class="icon">
+							<i class="fas fa-laptop"></i>
+						</span>
+						<div class="desc">
+							<h3>Real Possiblities</h3>
+							<p>"Unlike Bitcoin, $LXTH will under go cryptographic hash changes to keep mining fair."</p>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div> <!-- end about-content -->
 
         <div class="row about-content about-content--buttons">
 
-            <div class="col-six tab left">
-                <a href="https://github.com/lithe-project" class="btn btn--primary full-width">View our Projects on GitHub</a>
+            <div class="col-four tab-full left">
+                <a href="#0" class="btn btn--stroke full-width">Getting Started Docs</a>
             </div>
-            <div class="col-six tab right">
-                <a href="https://discord.gg/XH42C4b" class="btn btn--primary full-width">Communicate with us on Discord</a>
+            <div class="col-four tab-full right">
+                <a href="https://github.com/Lithe-Project/Lithe/releases" class="btn btn--primary full-width">Download Latest CLI</a>
             </div>
-            <div class="col-six tab left">
-                <a href="https://reddit.com/r/lithe" class="btn btn--primary full-width">Start a discussion on Reddit</a>
-            </div>
-            <div class="col-six tab right">
-                <a href="https://medium.com/@lithy" class="btn btn--primary full-width">Read the latest on Medium</a>
+            <div class="col-four tab-full right">
+                <a href="https://github.com/Lithe-Project/Lithe-GUI/releases" class="btn btn--primary full-width">Download Latest GUI</a>
             </div>
 
-
-        <div class="row about-content about">
-
-            <div class="col-full text-center">
-                <h3>Notice Board</h3>
-                <p class="lead">
-                Asides from Discord and Twitter, you can check out the latest news right here.</br>
-                </p>
-
-            <div class="alert-box alert-box--info hideit">
-				<p>Make sure you have a wallet to engage in the economics of <a>$LITHE</a>.</p>
-                <i class="im im-x-mark alert-box__close"></i>
-            </div><!-- /info -->
-			
-            <div class="alert-box alert-box--notice hideit">
-                <p>The Lithe testnet was initiated on 18th March 2019
-                </p>
-                <i class="im im-x-mark alert-box__close"></i>
-            </div><!-- /notice -->
-
-            <div class="alert-box alert-box--notice hideit">
-                <p>The Lithe is schelduled to launched in a few weeks.</br>
-                   Make sure you have your wallet created and the keys saved get started!
-                </p>
-                <i class="im im-x-mark alert-box__close"></i>
-            </div><!-- /notice -->
-            
-            <div class="alert-box alert-box--success hideit">
-                <p>We're hiring!</br>
-                     You can have a chance to work with the core team on creating
-                     an ecominical drive for Lithe. That could be getting down and
-                     dirty in the code of any of our projects, helping out people in 
-                     our community... you name it, it could help us!
-                </p>
-                <i class="im im-x-mark alert-box__close"></i>
-            </div><!-- /success -->
-            
-            </div>
-
+        </div> <!-- end about-content buttons -->
     </section> <!-- end about -->
-    
 
-
-    <!-- testimonials
+    <!-- timeline
     ================================================== -->
+    <section id="timeline" class="s-about target-section">
 
-    <div class="s-testimonials">
+        <div class="row about-content about-content--timeline">
 
-        <div class="overlay"></div>
-
-        <div class="row testimonials-header">
-            <div class="col-full">
-                <h1 class="h02">The Lithe Project&trade; History Timeline.</h1>
+            <div class="section-intro col-full text-center">
+				</br>
+                <h3>Our Timeline</h3>
+				<h1>Discover What We've Done, As A Team.</h1>
             </div>
-        </div>
 
-        <div class="row testimonials">
+            <div class="col-six tab-full left">
+                <div class="timeline">
 
-            <div class="col-full testimonials__slider">
+                    <div class="timeline__block">
+						<div class="timeline__bullet"><img src="images/altcoin-logo/elph.png" class="center"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">2019</p>
+                            <h3>ElphyreCoin ($ELPH)</h3>
+                        </div>
+                        <div class="timeline__desc">
+							<p>ElphyreCoin, the open-source funding coin, was originally a Bytecoin fork. After a while,
+                        		it's network started to get <i>rough</i>. LithyRiolu, a core developer for The Lithe Project,
+		                        contacted Citizen7, the founder of ELPH, in regards to a bounty. After an extensive discussion,
+        		                it was better decided that ElphyreCoin should reset its network but hold a premine for the
+                		        networks' previous miners and after a short while, the network was rescued and stable.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
 
-                <div class="testimonials__slide">
-                    <div class="testimonials__author h06">
-                        2019
-                        <span>ElphyreCoin (ELPH)</span>
-                    </div>
-                    <img src="images/alts/elph.png" alt="Author image" class="testimonials__avatar">
-                    <p>ElphyreCoin, the open source funding coin, was originally a Bytecoin fork. After a while,
-                        it's network started to get <i>rough</i>. LithyRiolu, the founder of The Lithe Project,
-                        contact Citizen7, the founder of ELPH, in regards to a bounty. After an extensive discussion,
-                        it was better decided that ElphyreCoin should reset its network but hold a premine for the
-                        networks previous miners. ELPH is now officially first fork of Lithe and has since thrived
-                        on the new network.</br>
-                    </p>
-                    <a class="btn btn--primary full-width" href="https://elphyrecoin.xyz">ElphyreCoin Website</a>
-                </div>
-
-                <div class="testimonials__slide">
-                    <div class="testimonials__author h06">
-                        2019
-                        <span>AmityCoin (AMIT)</span>
-                    </div>
-                    <img src="images/alts/amity-logo.png" alt="Author image" class="testimonials__avatar">
-                    <p>AmityCoin, now a fork of Nerva (XNV), is a longevity privacy coin. The current lead
+                    <div class="timeline__block">
+						<div class="timeline__bullet"><img src="images/altcoin-logo/amity-logo.png" class="center"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">2019</p>
+							<h3>AmityCoin ($XAM)</h3>
+                        </div>
+                        <div class="timeline__desc">
+							<p>AmityCoin, now a fork of Nerva (XNV), is a longevity privacy coin. The current lead
                         developer, Matt Hooftly, is a member of the Lithe Discord server and has been known to 
-                        help Lithe as well as other communitys like Nerva, TurtleCoin and many others. LithyRiolu,
-                        the founder of The Lithe Project, has made a few PR's and helpful, sometimes minor, 
-                        commits to AmityCoin's blockchain codebase and its other projects via GitHub.</br>
-                    </p>
-                    <a class="btn btn--primary full-width" href="https://getamitycoin.org">AmityCoin Website</a>
-                </div>
-
-                <div class="testimonials__slide">
-                    <div class="testimonials__author h06">
-                        2019
-                        <span>Launch of LITHE testnet</span>
-                    </div>
-                    <img src="images/logo.png" alt="Author image" class="testimonials__avatar">
-                    <p>The Lithe Project's testnet chain was finally activated and has been through some
-                        rigoruous testing. This gave us a chance to also work on our other applications that will
-                        use Lithe's blockchain such as GUI's. The testnet is open of any of our community members
-                        in Discord and Twitter. </br> </br>
-                        <b>Note: Testnet coins can not be swapped for mainnet coins. They
-                        are worthless and only to be used for testing purposes only.</b>
-                    </p>
-                </div>
-
-                <div class="testimonials__slide">
-                    <div class="testimonials__author h06">
-                        2019
-                        <span>Stash GUI</span>
-                    </div>
-                    <img src="images/alts/trtl-nest.png" alt="Author image" class="testimonials__avatar">
-                    <p>The Stash GUI is a fork of Nest but actually has a difference, unlike its other forks. 
-                        It is written in QML and GoLang allowing us to potentially create a beautiful GUI that
-                        works across Linux, Mac and Windows. Development has already started and there is an
-                        open issue in GitHub that tracks the developpment of the GUI with visual screenshots
-                        of what it looks like currently.
-                    </p>
-                    <a class="btn btn--primary full-width" href="https://github.com/lithe-project/lithe-stash">Stash Development</a>
-                </div>    
-            </div> <!-- end testimonials__slider -->
-
-            <div class="popular-articles">
-				<div class="mini-card-grid">
-					<article class="mini-card module module-article article" id="mini-post-285899">
-						<header class="mini-article-card-header">
-							<div class="mini-article-card-title">
-								<div class="mini-article-subhead">Article <time datetime="2019-04-10">Mar 4, 2019</time></div>
-								<h2 class=""><a href="https://medium.com/@Lithy/the-lithe-project-testnet-blockchain-c4343289a6e8" class="article-card-header read-article">
-									Public Testnet</a></h2>
-                                <br>
-								<p>A testnet is an alternative blockchain</br>
-									network for a project, that allows </br>
-									testing of experimental features. Testnet coins</br>
-									are separate and distinct from actual coins,</br>
-									and are never supposed to have any value.
-								</p>
-								<div class="btn btn--primary full-width" href="https://medium.com/@Lithy/the-lithe-project-testnet-blockchain-c4343289a6e8">Continue reading</div>
-							</div>
-						</header>
-
-						<div class="mini-article-meta">
-							<div class="mini-article-byline">
-								<div class="author-avatar">
-									<a class="author-name" href="https://github.com/lithyriolu">
-                                    <img alt="" src="images/avatars/LithyRiolu.jpg" class="avatar avatar-80 photo" height="100" width="100"></a>
-								</div>
-								<div class="author-name-area">
-									<div class="author-name-prefix">
-										Author
-									</div>
-									<a class="author-name" href="https://github.com/lithyriolu">
-										LithyRiolu</a>
-								</div>
-							</div>
-
-							<div class="tags">
-								<a href="" rel="tag">blockchain</a>
-                                <a href="" rel="tag">test-net</a>
-                                <a href="" rel="tag">cryptocurrency</a>
-                            </div>
-                        </div>
-					</article>
-
-                    <article class="mini-card module module-article article" id="mini-post-284470">
-                        <header class="mini-article-card-header">
-                            <div class="mini-article-card-title">
-                                <div class="mini-article-subhead">Article <time datetime="2019-03-18">Feb 18, 2019</time></div>
-                                <h2 class=""><a href="https://medium.com/@Lithy/the-lithe-project-908c9368142e" class="article-card-header read-article">
-                                  We need a team...</a>
-                                </h2>
-                                <br>
-                                <p>Ultimately, when a group of individuals works</br>
-                                    together, compared to one person working alone, they</br> 
-                                    promote a more efficient work output and are able</br>
-                                    to complete tasks faster due to many minds</br> 
-                                    intertwined on the same goals and objectives of </br>
-                                    the business.
-                                </p>
-								<div class="btn btn--primary full-width" href="https://medium.com/@Lithy/the-lithe-project-908c9368142e">Continue reading</div>
-                            </div>
-                        </header>
-                        
-                        <div class="mini-article-meta">
-                            <div class="mini-article-byline">
-                                <div class="author-avatar">
-                                    <a class="author-name" href="https://github.com/lithyriolu">
-                                    <img alt="" src="images/avatars/LithyRiolu.jpg" class="avatar avatar-80 photo" height="100" width="100"></a>
-                                </div>
-                                <div class="author-name-area">
-                                    <div class="author-name-prefix">
-                                        Author
-                                    </div>
-                                    <a class="author-name" href="https://github.com/lithyriolu/">
-                                        LithyRiolu</a>
-                                </div>
-                            </div>
-                            <div class="tags">
-                                <a href="https://css-tricks.com/tag/custom-elements/" rel="tag">teamwork</a>
-                                <a href="https://css-tricks.com/tag/html-templates/" rel="tag">inspiration</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="mini-card module module-article article" id="mini-post-280085">
-                        <header class="mini-article-card-header">
-                            <div class="mini-article-card-title">
-                                <div class="mini-article-subhead">Article <time datetime="2019-01-21">Feb 3, 2019</time></div>
-                                <h2 class=""><a href="https://css-tricks.com/the-great-divide/" class="article-card-header read-article">
-                                    The Lithe Project&trade;</a>
-                                </h2>
-                                </br>
-                                <p> Lithe aims to study the best practices</br>
-                                    of the fiat world and work towards </br>
-                                    developing products to be user-friendly</br>
-                                    for the people.
-                            </div>
-                        </header>
-
-                        <div class="mini-article-meta">
-                            <div class="mini-article-byline">
-                                <div class="author-avatar">
-                                    <a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
-                                    <img alt="" src="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&amp;d=retro&amp;r=pg" srcset="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=160&amp;d=retro&amp;r=pg 2x" class="avatar avatar-80 photo" height="80" width="80"></a>
-                                </div>
-                                <div class="author-name-area">
-                                    <div class="author-name-prefix">
-                                        Author
-                                    </div>
-                                    <a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
-                                        LithyRiolu</a>
-                                </div>
-                            </div>
-                            <div class="tags">
-                                <a href="https://css-tricks.com/tag/front-end-developer/" rel="tag">front-end developer</a>
-                            </div>
-                        </div>
-                    </article>    
-				  </div>
-			</div>
-        </div> <!-- end testimonials -->
-
-    </div> <!-- end s-testimonials -->
-
-                <section  id="links" class="s-links target-section">
-						<div class="inner">
-							<div class="posts">
-								<div>
-									<article class="btn--stroke full-width">
-										<a href="https://github.com/lithe-project/stash-gui" class="image full-width"><img src="images/alts/trtl-nest.png" alt="" /></a>
-										<div class="content">
-											<h3>GUI Wallets</h3>
-                                            <p>Lithe has multiple options on which GUI wallet you can use.</br>
-                                               <b>Lithe's Nest</b> is a basic fork from TurtleCoin's reliable Nest wallet whereas 
-                                               <b>The Lithe Stash</b> is also a Nest fork, more development is being done to this which
-                                               will make it stand out differently from other wallets.
-                                            </p>
-											<a class="actions">
-                                            <a href="" class="btn btn--primary full-width">Lithe's Nest</a>
-                                            <a href="" class="btn btn--stroke full-width">[WIP] The Lithe Stash</a>
-											</a>
-										</div>
-									</article>
-									<article class="btn--stroke ">
-										<a href="" class="image"><img src="images/1.jpg" alt="" /></a>
-										<div class="content">
-											<h3>Web Wallet</h3>
-											<p>This is an ideal and secure option if you do not want to download the CLI or GUI wallet.
-                                               With the web wallet, you can send and recieve transactions as well as viewing the general
-                                               status of your wallet.
-                                            </p>
-											<a href="https://wallet.getamitycoin.org" class="btn btn--primary full-width">Web Wallet</a>
-										</div>
-									</article>
-								</div>
-								<div>
-									<article class="btn--stroke">
-										<a href="https://github.com/lithe-project/lithe/releases" class="image"><img src="images/social/github.png" alt="" /></a>
-										<div class="content">
-											<h3>Latest Release</h3>
-											<p>Follow the link below for our latest releases.  We currently support Linux, Windows, MacOS and x64 ARM Operating Systems.</p>
-											<a href="http://github.com/lithe-project/lithe/releases" class="btn btn--primary full-width">Releases</a>
-										</div>
-									</article>
-									<article class="btn--stroke">
-										<a href="https://explorer.getamitycoin.org" class="image"><img src="images/1.jpg" alt="" /></a>
-										<div class="content">
-											<h3>Block Explorer</h3>
-											<p>This website allows you to view the current status of the blockchain with an elagant and simple look.
-                                               You can also view block information like the time it was created, the size etc. You can also use this to
-                                               view transaction IDs.
-                                            </p>
-											<a href="https://explorer.getamitycoin.org" class="btn btn--primary full-width">Block Explorer</a>
-										</div>
-									</article>
-									<article class="btn--stroke">
-										<a href="wallet.html" class="image"><img src="images/paper-wallet.png" alt="" /></a>
-											<div class="content">
-												<h3>Offline Wallet</h3>
-												<p>Sometimes you dont want to store your coins online.  Its just safter that way.  Here you can create a paper wallet and do just that.  Follow the link below:</p>
-												<a href="wallet.html" class="btn btn--primary full-width">Paper Wallet</a>
-											</div>
-										</article>
-								</div>
-								<div>
-									<article class="btn--stroke">
-										<a href="https://medium.com/@lithy" class="image"><img src="images/social/monogram-mask.svg" alt="" /></a>
-										<div class="content">
-											<h3>Medium Blog</h3>
-											<p>
-                                                Medium is a great place to start learning more about Lithe&trade;. 
-                                            </p>
-											<a href="https://medium.com/@lithy" class="btn btn--primary full-width">Read</a>
-											<a href="https://medium.com/@lithy" class="btn btn--stroke full-width">About Lithe&trade;</a>
-											<a href="https://medium.com/@lithy" class="btn btn--stroke full-width">Lithe&trade; Testnet</a>
-											<a href="https://medium.com/@lithy" class="btn btn--stroke full-width">Team Speach</a>
-										</div>
-									</article>
-									<article class="btn--stroke">
-										<a href="https://discord.gg/XH42C4b" class="image"><img src="images/social/discord.png" alt="" /></a>
-										<div class="content">
-											<h3>Discord</h3>
-											<p>Feel like having a chat? Asking a question? Do you need support to help get a rig going? 
-                                               Maybe you are just looking for a place to relax and have some fun?  Come join us on discord!
-                                            </p>
-											<a href="http://support.getamitycoin.org" class="btn btn--primary full-width">Discord</a>
-										</div>
-									</article>	
-									<article class="btn--stroke">
-										<a href="https://twitter.com/thelitheproject" class="image"><img src="images/social/twitter.png" alt="" /></a>
-										<div class="content">
-											<h3>Twitter</h3>
-											<p>You can also contact us through Twitter by sending us a tweet. This is good if Discord
-												is too <i>crowded</i>, or maybe social media just isn't your thing.
-                                            </p>
-											<a href="http://support.getamitycoin.org" class="btn btn--primary full-width">Twitter</a>
-										</div>
-									</article>	
-								</div>
-							</div>
+                        help Lithe as well as other communities like Nerva, TurtleCoin and many others. LithyRiolu,
+                        a core developer for The Lithe Project, has made a few PR's and helpful, sometimes minor, 
+                        commits to AmityCoin's blockchain codebase and its other projects via GitHub.</p>
 						</div>
-                </section>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+						<div class="timeline__bullet"><img src="images/altcoin-logo/logo.png" class="center"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">2019</p>
+							<h3>Lithe ($LXTH)</h3>
+                        </div>
+                        <div class="timeline__desc">
+							<p>Lithe aims to study the best practices of the fiat world and work towards 
+                				developing products to be user-friendly for the people. We know one minor 
+								problem between cryptocurrency and normal people and that is it is 
+                				like Voodoo to them. Lithe will change that so it will allow anyone and everyone the 
+				                ability to use and benefit from it. Because we want everyone to eventually be using Lithe, 
+                				we are adapting for longevity. </p>
+						</div>
+                    </div> <!-- end timeline__block -->
+
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
+
+            <div class="col-six tab-full right">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+						<div class="timeline__bullet"><img src="images/altcoin-logo/trtl-nest.png" class="center"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">2019</p>
+                            <h3>TurtleCoin ($TRTL)</h3>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>TurtleCoin's Nest GUI was a popular GUI wallet for the TurtleCoin network before a broken element left the GUI
+								faulty. LithyRiolu, a core developer for The Lithe Project, had already opened a PR on GitHub to replace the use
+								of <code>var</code> in JavaScript and this was left open before the repository got archived. After LithyRiolu
+								had fixed the issue for himself, by forking Nest as a base for another unique GUI, he contacted a couple of 
+								TurtleCoin's developers and the old PR was updated to include the fix to restore the Nest GUI.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+						<div class="timeline__bullet"><img src="images/altcoin-logo/logo.png" class="center"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">2019</p>
+                            <h3>DecentraChat</h3>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>The Lithe Project's first created application is DecentraChat, a P2P chatting application written in Go.
+								It is launched on a dedicated port of your choice and each port is a separate chatroom so, in theory,
+								there is over 50,000 private chat rooms to choose from. As well as being able to send messages to other peers,
+								you can also send files of unlimited size to each other.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                </div> <!-- end timeline -->
+            </div> <!-- end right -->
+
+        </div> <!-- end about-content timeline -->
 
 
-    <!-- s-stats
+    </section> <!-- end timeline -->
+
+    <!-- s-cta
     ================================================== -->
+    <section id="donate" class="s-cta section-intro target-section">
+        
+        <div class="row narrow cta">
+            <div class="col-full cta__content">
+				</br>
+                <h3>Donate</h3>
+                <h1>Support The Lithe Project.</h1>
 
-    <section id="contact" class="s-contact target-section">
+                <p class="lead">
+                The Lithe Project is completely funded by the team and community donations. We would kindly ask you to consider
+				donating to our project to help fund a few things that would help us achieve the main goals in which money is the
+				brick wall.
+				</p>
 
-        <div class="overlay"></div>
-
-        <div class="row narrow section-intro">
-            <div class="col-full">
-                <h1>Coin Specifacations</h1>
-                <p class="lead">Learn about the details of the Lithe currency.</p>
+        		<div class="row narrow about-content about-content--buttons">
+    	        	<div class="col-five full-width">
+        	        	<a href="donate.html" class="btn btn--primary full-width">Donation Addresses</a>
+	        	    </div>
+    	        	<div class="col-five full-width">
+        	        	<a href="https://www.patreon.com/thelitheproject" class="btn btn--primary full-width">Become a Patreon</a>
+	            	</div>
+	        	</div> <!-- end donate buttons -->
             </div>
-			<div>
-                <div class="col-twelve">
-                    <ul class="stats-tabs">
-                        <li><a href="#">48 <em>Block Reward</br>(LITHE p/block)</em></a></li>
-                        <li><a href="#">60 <em>Block Target</br>(seconds)</em></a></li>
-                        <li><a href="#">5 <em>Decimals</br>(0.12345)</em></a></li>
-                        <li><a href="#">ethiL <em>Prefix</br>(ethiLxxx...)</em></a></li>
-                        <li><a href="#">25B <em>Max Circulation</br>(25,000,000,000)</em></a></li>
-                    </ul>
-                </div>
-			</div>
-        </div>
-
-        <div class="row contact__main">
-        </div>
-
-    </section> <!-- end s-contact -->
-
-    <section>
-        <div class="popular-articles narrow row">
-            <div class="mini-card-grid">
-                <article class="mini-card module module-article article" id="mini-post-285899">
-                    <header class="mini-article-card-header">
-                        <div class="mini-article-card-title">
-                            <div class="mini-article-subhead">Graphic Designer</div>
-                            <h2 class=""><a href="https://medium.com/@Lithy/the-lithe-project-testnet-blockchain-c4343289a6e8" class="article-card-header read-article">
-                                QML & JAVASCRIPT</a></h2>
-                            <p>Lithe currently has GUI's written in two</br>
-                                languages, QML and JavaScript. We're</br>
-                                looking to for people that may have</br>
-                                knowledge of these two langauges to</br>
-                                engage and help develop the Graphical</br>
-                                User Interfaces that allows to use </br>
-                                $LITHE wallets across multiple platforms.</br>
-                            </p>
-                        </div>
-                    </header>
-                    <a href="" class="image"><img src="images/1.jpg" style="width:300px;height:300px" alt="" /></a>
-                    <div class="tags">
-                        <a href="https://css-tricks.com/tag/box-shadow/" rel="tag">QML</a>
-                        <a href="https://css-tricks.com/tag/clip-path/" rel="tag">JavaScript</a>
-                        <a href="https://css-tricks.com/tag/filter/" rel="tag">Graphic Design</a>
-                        <a href="https://css-tricks.com/tag/filter/" rel="tag">User Interface</a>
-                    </div>
-                </article>
-
-                <article class="mini-card module module-article article" id="mini-post-285899">
-                    <header class="mini-article-card-header">
-                        <div class="mini-article-card-title">
-                            <div class="mini-article-subhead">Community Moderation</div>
-                            <h2 class=""><a class="article-card-header read-article">
-                                DISCORD MODERATION</a></h2>
-                            <p>This role consists of a member(s)</br>
-                                to guide and assist new members </br>
-								to learn how to use <a class="read-article">$LITHE</a> </br>
-                                as well as keeping trolls at bay.</br>
-                            </p>
-                        </div>
-                    </header>
-
-					<a href="https://discord.gg/XH42C4b" class="image"><img src="images/social/discord.png" style="width:300px;height:300px" alt="" /></a>
-                    <div class="mini-article-meta">
-                        <div class="tags">
-                            <a href="" rel="tag">discord</a>
-                            <a href="https://css-tricks.com/tag/clip-path/" rel="tag">community</a>
-                            <a href="https://css-tricks.com/tag/filter/" rel="tag">moderation</a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="mini-card module module-article article" id="mini-post-285899">
-                    <header class="mini-article-card-header">
-                        <div class="mini-article-card-title">
-                            <div class="mini-article-subhead">Service Provider</div>
-                            <h2 class=""><a class="article-card-header read-article">
-                                PUBLIC NODE PROVIDER</a></h2>
-                            <p>Public node providers help</br>
-                                decentralise the network by having </br>
-                                different sources of input from</br>
-								different areas around the world.</br>
-								This also toughens the network</br>
-								making sure it is online, all the time.
-                            </p>
-                        </div>
-                    </header>
-					<a href="https://discord.gg/XH42C4b" class="image"><img src="images/testimonial-bg.jpg" style="width:300px;height:300px" alt="" /></a>
-                        <div class="tags">
-                            <a href="https://css-tricks.com/tag/box-shadow/" rel="tag">public-node</a>
-                            <a href="https://css-tricks.com/tag/clip-path/" rel="tag">decentralisation</a>
-                        </div>
-                    </div>
-                </article>
-              </div>
-            </div>
-        </section>
+        </div> <!-- end donate -->
+    </section>
 
     <!-- footer
     ================================================== -->
-
     <footer>
         <div class="row">
             <div class="col-full">
@@ -624,29 +344,21 @@
                 </div>
 
                 <ul class="footer-social">
-                    <li><a href="https://www.reddit.com/r/lithe">
-                        <i class="im im-reddit" aria-hidden="true"></i>
-                        <span>Reddit</span>
-                    </a></li>
-                    <li><a href="https://twitter.com/thelitheproject">
-                        <i class="im im-twitter" aria-hidden="true"></i>
-                        <span>Twitter</span>
-                    </a></li>
-                    <li><a href="https://instagram.com/lithyriolu">
-                        <i class="im im-instagram" aria-hidden="true"></i>
-                        <span>Instagram</span>
-                    </a></li>
-                    <li><a href="https://github.com/lithe-project">
-                        <i class="im im-github" aria-hidden="true"></i>
+                    <li><a href="#0">
+                        <i class="fab fa-github" aria-hidden="true"></i>
                         <span>GitHub</span>
                     </a></li>
-                    <li><a href="https://discord.gg/XH42C4b">
+                    <li><a href="#0">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span>Twitter</span>
+                    </a></li>
+                    <li><a href="#0">
+                        <i class="fab fa-reddit" aria-hidden="true"></i>
+                        <span>Reddit</span>
+                    </a></li>
+                    <li><a href="#0">
                         <i class="fab fa-discord" aria-hidden="true"></i>
                         <span>Discord</span>
-                    </a></li>
-                    <li><a>
-                        <i class="im im-mail" aria-hidden="true"></i>
-                        <span>thelitheproject@gmail.com</span>
                     </a></li>
                 </ul>
                     
@@ -657,8 +369,7 @@
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright 2019 - The Lithe Project&trade; Development Team</span> 
-                    <span>Support our projects on <a href="https://github.com/lithe-project/">GitHub</a></span>	
+                    <span>Copyright &copy; The Lithe Project Development Team</span>
                 </div>
 
                 <div class="go-top">
@@ -670,47 +381,6 @@
 
     </footer> <!-- end footer -->
 
-
-    <!-- photoswipe background
-    ================================================== -->
-
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div><!-- end photoSwipe background -->
-
     <div id="preloader">
         <div id="loader"></div>
     </div>
@@ -718,7 +388,6 @@
 
     <!-- Java Script
     ================================================== -->
-
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
