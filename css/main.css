@@ -2269,13 +2269,17 @@ html.no-csstransitions .home-content__main {
     text-transform: uppercase;
     letter-spacing: .15rem;
     color: rgba(0, 0, 0, 0.5);
-    margin-bottom: .9rem;
+    margin-bottom: 1rem;
+	margin-left: 2.4rem;
+	
     font-family: "montserrat-bold", sans-serif;
 }
 
 .timeline__header h3 {
     line-height: 1.25;
     margin: 0 0 .3rem 0;
+	margin-left: 2.5rem;
+	margin-bottom: 1rem;
 }
 
 .timeline__header h5 {
